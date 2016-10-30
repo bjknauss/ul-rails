@@ -1,0 +1,64 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @monster.name %>
+</p>
+
+<p>
+  <strong>Rarity:</strong>
+  <%= @monster.rarity %>
+</p>
+
+<p>
+  <strong>Element:</strong>
+  <%= @monster.element %>
+</p>
+
+<p>
+  <strong>Stat element:</strong>
+  <%= @monster.stat_element %>
+</p>
+
+<p>
+  <strong>Cost:</strong>
+  <%= @monster.cost %>
+</p>
+
+<p>
+  <strong>Current reforge:</strong>
+  <%= @monster.current_reforge %>
+</p>
+
+<p>
+  <strong>Max reforge:</strong>
+  <%= @monster.max_reforge %>
+</p>
+
+<p>
+  <strong>Top stat:</strong>
+  <%= @monster.top_stat %>
+</p>
+
+<p>
+  <strong>Bot stat:</strong>
+  <%= @monster.bot_stat %>
+</p>
+
+<p>
+  <strong>Skill name:</strong>
+  <%= @monster.skill_name %>
+</p>
+
+<p>
+  <strong>Skill description:</strong>
+  <%= @monster.skill_description %>
+</p>
+
+<p>
+  <strong>Thumbnail:</strong>
+  <%= @monster.thumbnail %>
+</p>
+
+<%= link_to 'Edit', edit_monster_path(@monster) %> |
+<%= link_to 'Back', monsters_path %>

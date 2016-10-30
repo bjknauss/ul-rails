@@ -1,0 +1,29 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  rarity_id: 
+  element_id: 
+  stat_element_id: 
+  cost: 1
+  current_reforge: 1
+  max_reforge: 1
+  top_stat: 1
+  bot_stat: 1
+  skill_name: MyString
+  skill_description: MyText
+  thumbnail: MyString
+
+two:
+  name: MyString
+  rarity_id: 
+  element_id: 
+  stat_element_id: 
+  cost: 1
+  current_reforge: 1
+  max_reforge: 1
+  top_stat: 1
+  bot_stat: 1
+  skill_name: MyString
+  skill_description: MyText
+  thumbnail: MyString

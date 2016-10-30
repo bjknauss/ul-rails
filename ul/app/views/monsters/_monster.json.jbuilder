@@ -1,0 +1,2 @@
+json.extract! monster, :id, :name, :rarity_id, :element_id, :stat_element_id, :cost, :current_reforge, :max_reforge, :top_stat, :bot_stat, :skill_name, :skill_description, :thumbnail, :created_at, :updated_at
+json.url monster_url(monster, format: :json)
